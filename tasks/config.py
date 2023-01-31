@@ -12,4 +12,5 @@ class ConfigApp(BaseSettings):
     class Meta:
         path_to_env: str = '../.env'
 
+
 main_settings = ConfigApp()
