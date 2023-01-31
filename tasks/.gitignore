@@ -1,6 +1,5 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-../__pycache__/
 *.py[cod]
 *$py.class
 
@@ -103,10 +102,10 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-..env
-.venv/
+.env
+.venv
 env/
-../venv/
+venv/
 ENV/
 env.bak/
 venv.bak/
@@ -128,3 +127,20 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Папки, создаваемые средой разработки
+.idea
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*.sublime-project
+*.sublime-workspace
+
+.vscode/
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+.mypy_cache
